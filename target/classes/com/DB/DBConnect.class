@@ -1,0 +1,9 @@
+Êþº¾   = 1  com/DB/DBConnect  java/lang/Object 
+connection Ljava/sql/Connection; <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/DB/DBConnect; getConnection ()Ljava/sql/Connection;  com.mysql.jdbc.Driver
+    java/lang/Class   forName %(Ljava/lang/String;)Ljava/lang/Class;  1jdbc:mysql://localhost:3306/internet-provider-app  root  password
+ ! # " java/sql/DriverManager  $ M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;	  &  
+ ( * ) java/lang/Exception +  printStackTrace e Ljava/lang/Exception; StackMapTable 
+SourceFile DBConnect.java !      
+          	   /     *· 
+±                        	    	   m     ¸ W¸  ³ %§ K*¶ '² %°      (                         , -   .    U (  /    0
